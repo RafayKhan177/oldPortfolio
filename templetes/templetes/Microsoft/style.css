@@ -1,0 +1,147 @@
+/***** Classes *****/
+
+.nav-item {
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.CFContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CFItem {
+    margin: 5px;
+    border: 4px;
+}
+
+.CFText {
+    text-decoration: none;
+    color: #302f2f;
+    text-align: center;
+}
+
+.navbar-toggler::after {
+    float: none;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navIcons {
+    display: flex;
+}
+
+.fontA {
+    color: black;
+}
+
+/* Container holding the image and the text */
+.container-1 {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 90px;
+    left: 16px;
+    margin-left: 1cm;
+}
+
+.imgText {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.bgImg {
+    width: 100%;
+}
+
+.container-2 {
+    background-color: #302f2f;
+}
+
+.text-block-2 {
+    text-align: center;
+    background-color: #302f2f;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+
+/***** End Classes *****/
+
+/***** Queries *****/
+
+@media (max-width: 770px) {
+
+    .Xp {
+        order: 1;
+    }
+
+    .navImg {
+        order: 3;
+    }
+
+    .navIconSearchMd {
+        order: 2;
+    }
+
+    .navIconsCartMd {
+        order: 4;
+    }
+
+    .colpsLnk {
+        order: 5;
+    }
+
+    .navIconsCart {
+        display: none;
+    }
+
+    .navIconSearch {
+        display: none
+    }
+
+
+}
+
+@media (max-width: 615px) {
+
+    .text-block {
+        display: none;
+    }
+
+    .bgImg {
+        height: 20rem;
+        object-fit: ;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .navIconsCart {
+        display: none;
+    }
+
+    .navIconSearch {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 615px) {
+    .container-2 {
+        display: none;
+    }
+
+    .text-block-2 {
+        display: none;
+    }
+
+}
+
+
+/***** End Queries *****/

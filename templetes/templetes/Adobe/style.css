@@ -1,0 +1,85 @@
+@media(max-width: 500px) {
+	#navlogo img {
+		width: auto;
+		height: 60px;
+	}
+}
+
+#sociallogo {
+	width: 25px;
+	height: auto;
+}
+
+#footerlinks {
+	color: red;
+	text-decoration: none;
+}
+
+.CFContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.CFItem {
+	margin: 10px;
+	border: 4px;
+}
+
+.CFText {
+	text-decoration: none;
+	color: #302f2f;
+	text-align: center;
+}
+
+@media(max-width: 800px) {
+	#firstpicdload img {
+		height: 200px;
+		width: auto;
+	}
+}
+
+#aboutpara {
+	color: rgb(145, 145, 145);
+	size: 10px;
+}
+
+span {
+	color: rgb(82, 82, 82);
+}
+
+h3 {
+	color: #525151;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fdownload{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.fdc{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 80px;
+	width: 00px;
+	background-color: rgb(255, 0, 0);
+	border: solid rgb(27, 27, 27) 5px;
+	border-radius: 10px;
+}
+.picbtndcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.picbtnditem {
+	margin: 10px;
+	border: 4px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+

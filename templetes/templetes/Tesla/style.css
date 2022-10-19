@@ -1,0 +1,176 @@
+/***** Font Family *****/
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Monoton&family=Righteous&display=swap');
+/***** End Font Family *****/
+
+/***** Header *****/
+.header {
+    background-color: rgb(29, 29, 29);
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(175, 174, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/***** End Header *****/
+
+/***** Navbar *****/
+
+@media screen and (min-width: 990px) {
+    .smnabtn {
+        display: none;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .nav-link {
+        display: none;
+    }
+
+    .smnabtn {
+        color: rgba(255, 255, 255, 0.521);
+        background-color: #3f3e3e59;
+        border: 0px;
+    }
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    
+    right: 0px;
+    left: 0px;
+
+}
+
+.nav-childs{
+    display: flex;
+    justify-content: space-between;
+}
+.navs {
+    color: rgb(173 171 177 / 85%);
+    font-family: 'Righteous', cursive;
+}
+
+.nav-link {
+    color: rgb(173 171 177 / 85%);
+    font-family: 'Righteous', cursive;
+}
+
+.scnav {
+    margin-top: 7rem;
+}
+
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.473);
+    background-color: #00000021;
+    border-radius: 4px;
+    margin: 1px;
+    transition: 1s;
+}
+
+/***** End Navbar *****/
+/***** Side Navbar *****/
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    x-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(37, 37, 37, 0.486);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #b0b7c1;
+    display: block;
+    transition: 0.5s;
+    font-family: 'Righteous', cursive;
+}
+
+.sidenav a:hover {
+    color: rgb(255, 127, 127);
+    background-color: #006aff2f;
+    border-radius: 20px;
+    margin: 12px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/***** End Side Navbar *****/
+
+/***** Background Image *****/
+
+.bg-image {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/***** End Background Image *****/
+
+
+/***** Buttom Buttons *****/
+
+
+#btn-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    bottom: 150px;
+    left: 0px;
+}
+
+#buttom-button {
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 2px;
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 43, 43, 0.404);
+}
+
+/***** End Buttom Buttons *****/
